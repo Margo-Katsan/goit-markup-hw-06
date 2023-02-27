@@ -540,7 +540,7 @@ img {
 .footer-form-submit {
     min-width: 165px;
     display: flex;
-   
+    position: relative;
 
     font-size: 16px;
     line-height: 1.5;
@@ -565,10 +565,7 @@ img {
 .footer-form-submit:focus {
     background: var(--accent-color)
 }
-.footer-form-button-wrapper {
-    display: block;
-    position: relative;
-}
+
 .footer-form-input-icon {
     position: absolute;
     top: 50%;
@@ -599,7 +596,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 408px;
-    height: 576px;
+    height: 584px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
@@ -693,7 +690,7 @@ img {
     outline: none;
     border-color: #4D5AE5;
 }
-.modal-form-input:focus + .modal-form-input-icon{
+.modal-form-input:focus + .modal-form-input-icon {
     fill: #4D5AE5;
 }
 
